@@ -1,0 +1,2 @@
+my_robot:rtab_mapping:where_am_i
+-DCATKIN_DEVEL_PREFIX=/home/james/localisation_ws/devel -DCMAKE_INSTALL_PREFIX=/home/james/localisation_ws/install -G Unix Makefiles

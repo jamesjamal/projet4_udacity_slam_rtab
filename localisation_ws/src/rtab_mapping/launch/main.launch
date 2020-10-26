@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+ <include file="$(find my_robot)/launch/world.launch"/>
+ <include file="$(find rtab_mapping)/launch/mapping.launch"/>
+
+ <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop" output="screen"/>
+
+</launch>
